@@ -21,7 +21,7 @@ namespace ProductsPricing.Entities
             Price = price;
         }
 
-        public String PriceTag()
+        public virtual String PriceTag()
         {
             return Name + "$" + Price;
         }
